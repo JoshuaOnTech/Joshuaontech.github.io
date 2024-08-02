@@ -1,0 +1,179 @@
+/* ------------------- */
+/* --- UNIVERSAL --- */
+/* ------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  opacity: 0.9;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------- */
+/* --- NAVIGATION --- */
+/* ------------------- */
+body {
+  position: relative;
+}
+
+header {
+  height: 69px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  color: seashell;
+}
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: none;
+  transition: all 0.3ms;
+}
+
+/* ------------------- */
+/* --- BANNER --- */
+/* ------------------- */
+.banner {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../IMG/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.banner div {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  line-height: 2;
+}
+
+/* ------------------- */
+/* ---- PRODUCTS ---- */
+/* ------------------- */
+.product-section {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.product-title,
+.product-text {
+  text-align: center;
+  line-height: 2;
+}
+.product-text {
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+
+.list-item {
+}
+
+.item-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* ------------------- */
+/* ---- LOCATION ---- */
+/* ------------------- */
+.location {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 50px;
+  background-image: url(/Resources/IMG/img-locations-background.jpg);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.location h2 {
+  text-align: center;
+}
+
+.areas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.geographics {
+  background-color: black;
+  padding: 30px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  gap: 40px;
+  opacity: 1;
+}
+
+.geographic-base {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ------------------- */
+/* ---- FOOTER ---- */
+/* ------------------- */
+footer {
+  height: 200px;
+  padding: 0 20px;
+}
+
+footer h2,
+footer h5,
+.contact {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+}
+
+.copy {
+}
